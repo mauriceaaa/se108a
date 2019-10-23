@@ -9,10 +9,9 @@ function factorial(n)
   var j = 1;
  for (var i=2; i<=n; i++)
   {
-    
-
-
-
+   nC = 3*j + 2*k
+   k = j
+   j = nC
   } 
- 
+  return j;
 }
